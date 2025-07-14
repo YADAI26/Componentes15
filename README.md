@@ -69,6 +69,7 @@ proporciona la misma funcionalidad que un nativo mejorado con estilo y animacion
 
 ## ***Basic chips***
 DESC:
+Los chips estaticos permiten a los usuarios ver información, hacer selecciones, filtrar contenido e ingresar datos.
 
 - Consola del navegador mostrando resultados :
 <img width="649" height="235" alt="image" src="https://github.com/user-attachments/assets/e1149d4d-1508-40f6-8f78-32732350609c" />
@@ -76,7 +77,9 @@ DESC:
 
 ## ***Basic datepicker***
 DESC:
-
+El selector de fechas permite a los usuarios ingresar una fecha a través de la entrada de 
+texto o eligiendo una fecha de el calendario. Se compone de varios componentes, directivas 
+y la fecha de implementación que trabajan juntos.
 
 
 - Consola del navegador mostrando resultados :
@@ -85,8 +88,7 @@ DESC:
   
 ## ***Basic divider***
 DESC:
-
-
+es un componente que permite el estilo de material de un separador de líneas con varias opciones de orientación.
 
 - Consola del navegador mostrando resultados :
 <img width="608" height="436" alt="image" src="https://github.com/user-attachments/assets/1d71061e-c94c-41da-9c8a-a93d82b9944c" />
@@ -94,7 +96,7 @@ DESC:
 
 ## ***Basic expansion panel**
 DESC:
-
+Proporciona una vista de resumen de detalles expandible.
 
 - Consola del navegador mostrando resultados :
 <img width="661" height="445" alt="image" src="https://github.com/user-attachments/assets/4089ec46-37f5-49d5-a707-1e28a5d55d41" />
@@ -102,8 +104,17 @@ DESC:
 
 ## ***Simple form field***
 DESC:
-
-
+<mat-form-field> es un componente que se utiliza para ajustar varios componentes de material angular y
+aplicar estilos de campo de texto comunes, como el mensajes de subrayado, etiqueta flotante y sugerencia.
+En este documento, "campo de formulario" se refiere al componente contenedor y "Control de campo de formulario" 
+se refiere al componente que está envolviendo (por ejemplo, la entrada, el área de texto, seleccionar, etc.)
+<mat-form-field><mat-form-field>
+Los siguientes componentes de material angular están diseñados para trabajar dentro de un :
+<mat-form-field>
+<input matNativeControl> & <textarea matNativeControl>
+<select matNativeControl>
+<mat-select>
+<mat-chip-set>
 
 - Consola del navegador mostrando resultados :
 <img width="597" height="515" alt="image" src="https://github.com/user-attachments/assets/af915beb-1fc1-46cb-b10f-4e911f97c1ce" />
@@ -111,7 +122,8 @@ DESC:
 
 ## ***Basic icons***
 DESC:
-
+facilita el uso de íconos basados en vectores en tu app. Esta Directiva apoya tanto a los 
+fuentes de iconos e iconos SVG, pero no formatos basados en mapas de bits (png, jpg, etc.).
 
 
 - Consola del navegador mostrando resultados :
@@ -120,8 +132,8 @@ DESC:
 
 ## ***Basic Inputs***
 DESC:
-
-
+matInput es una directiva que permite que los elementos y nativos trabajen con 
+<mat-form-field>.<input><textarea>
 
 - Consola del navegador mostrando resultados :
 <img width="619" height="496" alt="image" src="https://github.com/user-attachments/assets/1a149a33-1e6c-46b3-94f2-e6d72a96cd01" />
@@ -130,8 +142,9 @@ DESC:
 
 ## ***List with selection***
 DESC:
-
-
+<mat-list> es un componente contenedor que envuelve y da formato a una serie de archivos . 
+A medida que el base list, proporciona estilo de Material Design, pero no tiene comportamiento propio.
+<mat-list-item>
 
 - Consola del navegador mostrando resultados :
 <img width="626" height="490" alt="image" src="https://github.com/user-attachments/assets/efb28029-ae3b-4a6f-9270-be9a1810797f" />
@@ -139,7 +152,9 @@ DESC:
 
 ## ***Indeterminate progress-bar***
 DESC:
-
+Indeterminate
+Operaciones en las que se le pide al usuario que espere mientras algo termina y es 
+No es necesario indicar cuánto tiempo se va a tardar en utilizar el indicador indeterminado.
 
 - Consola del navegador mostrando resultados :
 <img width="642" height="196" alt="image" src="https://github.com/user-attachments/assets/b24b2e1f-1260-4807-9682-33f75465f266" />
@@ -147,7 +162,8 @@ DESC:
 
 ## ***Basic radios***
 DESC:
-
+<mat-radio-button> Proporciona la misma funcionalidad que un nativo mejorado con Diseño de materiales, 
+estilismo y animaciones.<input type="radio">
 
 
 - Consola del navegador mostrando resultados :
@@ -156,6 +172,10 @@ DESC:
 
 ## ***Slider with custom thumb label formatting***
 DESC:
+De forma predeterminada, el valor en la etiqueta para miniaturas del control deslizante 
+será el mismo que el valor del modelo, sin embargo, este puede terminar siendo demasiado 
+grande para caber en la etiqueta. Si desea controlar el valor que se está que se muestra, 
+puede hacerlo utilizando la entrada.displayWith
 
 - Consola del navegador mostrando resultados :
 <img width="652" height="261" alt="image" src="https://github.com/user-attachments/assets/14c92110-e3e4-4ed7-b729-20ed3aaa8d54" />
@@ -163,6 +183,8 @@ DESC:
 
 ## ***Basic snack-bar***
 DESC:
+MatSnackBar es un servicio para mostrar notificaciones de snack-bar.
+
 
 - Consola del navegador mostrando resultados :
 <img width="1859" height="734" alt="image" src="https://github.com/user-attachments/assets/ebdaec1d-5078-48df-92e5-ed64982931dd" />
