@@ -1,59 +1,97 @@
-# AngularProjectmaterial
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+<div align="center">
 
-## Development server
+**TECNOLOGICO NACIONAL DE MEXICO**  
+**INSTITUTO TECNOLÓGICO DE OAXACA**
 
-To start a local development server, run:
+Departamento de Ingeniería en Sistemas Computacionales  
 
-```bash
-ng serve
+Programación Web  
+
+**Ejercicios de Angular Material**
+
+Profesor: Martínez Nieto Adelina
+
+Alumna:
+Salinas Montesinos Cintia Yadai  
+Grupo: VSI  
+
+Oaxaca, Oaxaca, a 04 de julio de 2025.
+
+</div>
+
+---
+## Ejercicios de Angular Material
+
+## Introducción a Angular Material:
+Esta guía explica cómo configurar su proyecto de Angular para comenzar a usar Angular Material. 
+Incluye: información sobre los requisitos previos, la instalación de Angular Material y, opcionalmente, 
+la visualización de una muestra Material en su aplicación para verificar su configuración.
+##  Instalar material angular
+
+```
+ng add @angular/material
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+##  Mostrar un componente
 
-## Code scaffolding
+- ***Autocompletado simple***
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Comience por crear el panel de autocompletar y las opciones que se muestran dentro de él. Cada opción debe ser definido por una etiqueta. 
+Establezca la propiedad value de cada opción en el valor que desee de la entrada de texto cuando se selecciona esa opción.mat-option
 
-```bash
-ng generate component component-name
+
+```
+HTML
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Number</mat-label>
+    <input type="text"
+           placeholder="Pick one"
+           aria-label="Number"
+           matInput
+           [formControl]="myControl"
+           [matAutocomplete]="auto">
+    <mat-autocomplete #auto="matAutocomplete">
+      @for (option of options; track option) {
+        <mat-option [value]="option">{{option}}</mat-option>
+      }
+    </mat-autocomplete>
+  </mat-form-field>
+</form>
+
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
 ```
+TS
+import {Component} from '@angular/core';
+import {FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
+/**
+ * @title Simple autocomplete
+ */
+@Component({
+  selector: 'autocomplete-simple-example',
+  templateUrl: 'autocomplete-simple-example.html',
+  styleUrl: 'autocomplete-simple-example.css',
+  imports: [
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatAutocompleteModule,
+    ReactiveFormsModule,
+  ],
+})
+export class AutocompleteSimpleExample {
+  myControl = new FormControl('');
+  options: string[] = ['One', 'Two', 'Three'];
+}
 ```
+## A continuacion mostramos el componente 
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+<img width="615" height="340" alt="image" src="https://github.com/user-attachments/assets/111f364c-c76c-4a5e-8ae8-fcd24dd55f79" />
 
-## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
