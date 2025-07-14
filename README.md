@@ -35,16 +35,17 @@ ng add @angular/material
 
 ---
 
-##  Mostrar un componente:
+##  A continuacion te muestro mis componentes de material Angular:
 
 ## ***Autocompletado simple***
-
+DESC:
 Comience por crear el panel de autocompletar y las opciones que se muestran dentro de él. 
 Cada opción debe ser definido por una etiqueta. Establezca la propiedad value de cada opción 
 en el valor que desee de la entrada de texto cuando se selecciona esa opción.mat-option
 
 - Consola del navegador mostrando resultados :
 <img width="615" height="340" alt="image" src="https://github.com/user-attachments/assets/111f364c-c76c-4a5e-8ae8-fcd24dd55f79" />
+
 
 
 ## ***Badge overview***
@@ -94,7 +95,7 @@ es un componente que permite el estilo de material de un separador de líneas co
 <img width="608" height="436" alt="image" src="https://github.com/user-attachments/assets/1d71061e-c94c-41da-9c8a-a93d82b9944c" />
 
 
-## ***Basic expansion panel**
+## ***Basic expansion panel***
 DESC:
 Proporciona una vista de resumen de detalles expandible.
 
@@ -192,7 +193,8 @@ MatSnackBar es un servicio para mostrar notificaciones de snack-bar.
 
 
 
-
+Si te interesan mas materiales como esos te dejare un link donde puedes obtener aun mas:
+https://material.angular.dev/components/snack-bar/overview
 
 
 
