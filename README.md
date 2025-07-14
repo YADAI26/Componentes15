@@ -38,7 +38,7 @@ ng add @angular/material
 ##  A continuacion te muestro mis componentes de material Angular:
 
 ## ***Autocompletado simple***
-DESC:
+📋DESC:
 Comience por crear el panel de autocompletar y las opciones que se muestran dentro de él. 
 Cada opción debe ser definido por una etiqueta. Establezca la propiedad value de cada opción 
 en el valor que desee de la entrada de texto cuando se selecciona esa opción.mat-option
@@ -49,7 +49,7 @@ en el valor que desee de la entrada de texto cuando se selecciona esa opción.ma
 
 
 ## ***Badge overview***
-DESC:
+📋DESC:
 Los distintivos son pequeños descriptores de estado para los elementos de la interfaz de usuario.
 Una insignia consiste en un pequeño círculo, normalmente contiene un número u otro conjunto corto de caracteres,
 que aparece cerca de otro objeto.
@@ -60,7 +60,7 @@ que aparece cerca de otro objeto.
 
 
 ## ***Basic checkboxes***
-DESC:
+📋DESC:
 proporciona la misma funcionalidad que un nativo mejorado con estilo y animaciones de Material Design.
 
 - Consola del navegador mostrando resultados :
@@ -69,7 +69,7 @@ proporciona la misma funcionalidad que un nativo mejorado con estilo y animacion
 
 
 ## ***Basic chips***
-DESC:
+📋DESC:
 Los chips estaticos permiten a los usuarios ver información, hacer selecciones, filtrar contenido e ingresar datos.
 
 - Consola del navegador mostrando resultados :
@@ -77,7 +77,7 @@ Los chips estaticos permiten a los usuarios ver información, hacer selecciones,
 
 
 ## ***Basic datepicker***
-DESC:
+📋DESC:
 El selector de fechas permite a los usuarios ingresar una fecha a través de la entrada de 
 texto o eligiendo una fecha de el calendario. Se compone de varios componentes, directivas 
 y la fecha de implementación que trabajan juntos.
@@ -88,7 +88,7 @@ y la fecha de implementación que trabajan juntos.
 
   
 ## ***Basic divider***
-DESC:
+📋DESC:
 es un componente que permite el estilo de material de un separador de líneas con varias opciones de orientación.
 
 - Consola del navegador mostrando resultados :
@@ -96,7 +96,7 @@ es un componente que permite el estilo de material de un separador de líneas co
 
 
 ## ***Basic expansion panel***
-DESC:
+📋DESC:
 Proporciona una vista de resumen de detalles expandible.
 
 - Consola del navegador mostrando resultados :
@@ -104,13 +104,16 @@ Proporciona una vista de resumen de detalles expandible.
 
 
 ## ***Simple form field***
-DESC:
+📋DESC:
 <mat-form-field> es un componente que se utiliza para ajustar varios componentes de material angular y
 aplicar estilos de campo de texto comunes, como el mensajes de subrayado, etiqueta flotante y sugerencia.
+
 En este documento, "campo de formulario" se refiere al componente contenedor y "Control de campo de formulario" 
-se refiere al componente que está envolviendo (por ejemplo, la entrada, el área de texto, seleccionar, etc.)
+se refiere al componente que está envolviendo.
+**por ejemplo**  la entrada, el área de texto, seleccionar, etc.
 <mat-form-field><mat-form-field>
 Los siguientes componentes de material angular están diseñados para trabajar dentro de un :
+
 <mat-form-field>
 <input matNativeControl> & <textarea matNativeControl>
 <select matNativeControl>
@@ -122,7 +125,7 @@ Los siguientes componentes de material angular están diseñados para trabajar d
 
 
 ## ***Basic icons***
-DESC:
+📋DESC:
 facilita el uso de íconos basados en vectores en tu app. Esta Directiva apoya tanto a los 
 fuentes de iconos e iconos SVG, pero no formatos basados en mapas de bits (png, jpg, etc.).
 
@@ -132,7 +135,7 @@ fuentes de iconos e iconos SVG, pero no formatos basados en mapas de bits (png, 
 
 
 ## ***Basic Inputs***
-DESC:
+📋DESC:
 matInput es una directiva que permite que los elementos y nativos trabajen con 
 <mat-form-field>.<input><textarea>
 
@@ -142,7 +145,7 @@ matInput es una directiva que permite que los elementos y nativos trabajen con
 
 
 ## ***List with selection***
-DESC:
+📋DESC:
 <mat-list> es un componente contenedor que envuelve y da formato a una serie de archivos . 
 A medida que el base list, proporciona estilo de Material Design, pero no tiene comportamiento propio.
 <mat-list-item>
@@ -152,7 +155,7 @@ A medida que el base list, proporciona estilo de Material Design, pero no tiene 
 
 
 ## ***Indeterminate progress-bar***
-DESC:
+📋DESC:
 Indeterminate
 Operaciones en las que se le pide al usuario que espere mientras algo termina y es 
 No es necesario indicar cuánto tiempo se va a tardar en utilizar el indicador indeterminado.
@@ -162,7 +165,7 @@ No es necesario indicar cuánto tiempo se va a tardar en utilizar el indicador i
 
 
 ## ***Basic radios***
-DESC:
+📋DESC:
 <mat-radio-button> Proporciona la misma funcionalidad que un nativo mejorado con Diseño de materiales, 
 estilismo y animaciones.<input type="radio">
 
@@ -172,7 +175,7 @@ estilismo y animaciones.<input type="radio">
 
 
 ## ***Slider with custom thumb label formatting***
-DESC:
+📋DESC:
 De forma predeterminada, el valor en la etiqueta para miniaturas del control deslizante 
 será el mismo que el valor del modelo, sin embargo, este puede terminar siendo demasiado 
 grande para caber en la etiqueta. Si desea controlar el valor que se está que se muestra, 
@@ -183,7 +186,7 @@ puede hacerlo utilizando la entrada.displayWith
 
 
 ## ***Basic snack-bar***
-DESC:
+📋DESC:
 MatSnackBar es un servicio para mostrar notificaciones de snack-bar.
 
 
@@ -191,10 +194,13 @@ MatSnackBar es un servicio para mostrar notificaciones de snack-bar.
 <img width="1859" height="734" alt="image" src="https://github.com/user-attachments/assets/ebdaec1d-5078-48df-92e5-ed64982931dd" />
 
 
+## ***GITHUB PAGES***
 
+🔗 https://yadai26.github.io/Componentes15/
 
 Si te interesan mas materiales como esos te dejare un link donde puedes obtener aun mas:
-https://material.angular.dev/components/snack-bar/overview
+
+🔗https://material.angular.dev/components/snack-bar/overview
 
 
 
