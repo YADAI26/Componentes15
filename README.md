@@ -108,18 +108,6 @@ Proporciona una vista de resumen de detalles expandible.
 <mat-form-field> es un componente que se utiliza para ajustar varios componentes de material angular y
 aplicar estilos de campo de texto comunes, como el mensajes de subrayado, etiqueta flotante y sugerencia.
 
-En este documento, "campo de formulario" se refiere al componente contenedor y "Control de campo de formulario" 
-se refiere al componente que está envolviendo.
-**por ejemplo**  la entrada, el área de texto, seleccionar, etc.
-<mat-form-field><mat-form-field>
-Los siguientes componentes de material angular están diseñados para trabajar dentro de un :
-
-<mat-form-field>
-<input matNativeControl> & <textarea matNativeControl>
-<select matNativeControl>
-<mat-select>
-<mat-chip-set>
-
 - Consola del navegador mostrando resultados :
 <img width="597" height="515" alt="image" src="https://github.com/user-attachments/assets/af915beb-1fc1-46cb-b10f-4e911f97c1ce" />
 
