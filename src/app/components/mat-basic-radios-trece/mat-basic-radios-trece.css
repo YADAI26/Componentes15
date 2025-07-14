@@ -1,0 +1,35 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #9ac3e0 0%, #fbc2eb 100%);
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.10);
+  padding: 32px 40px;
+  border: 1px solid #e0e0e0;
+  min-width: 320px;
+  max-width: 480px;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #ff4081;
+  text-align: center;
+  width: 100%;
+}
+
+::ng-deep .mat-mdc-radio-button {
+  margin: 0 16px 12px 0;
+  font-size: 1rem;
+}
+
+::ng-deep .mdc-radio__background {
+  border-color: #ff4081 !important;
+}
+
+::ng-deep .mdc-radio__outer-circle {
+  border-width: 2px !important;
+}

@@ -1,0 +1,26 @@
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #d03dd8b2;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.92);
+  padding: 20px 20px;
+  min-width: 320px;
+  max-width: 480px;
+}
+
+
+.example-section {
+  margin: 15px 0;
+}
+
+.example-margin {
+  margin: 0 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 6px;
+}
