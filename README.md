@@ -40,9 +40,8 @@ ng add @angular/material
 Comience por crear el panel de autocompletar y las opciones que se muestran dentro de él. Cada opción debe ser definido por una etiqueta. 
 Establezca la propiedad value de cada opción en el valor que desee de la entrada de texto cuando se selecciona esa opción.mat-option
 
-
-```
 HTML
+```
 <form class="example-form">
   <mat-form-field class="example-full-width">
     <mat-label>Number</mat-label>
@@ -61,9 +60,9 @@ HTML
 </form>
 
 ```
-
-```
 TS
+```
+
 import {Component} from '@angular/core';
 import {FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
